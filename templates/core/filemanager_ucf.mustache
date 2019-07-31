@@ -82,17 +82,18 @@ function readCookie(name) {
 
 getSoundBip_file = null;
 function getSoundBip() {
-    if (getSoundBip_file == null) {getSoundBip_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor/desenvolvimento/audio/bip.mp3')}
+    if (getSoundBip_file == null) {getSoundBip_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor2/master/audio/bip.mp3')}
     getSoundBip_file.loop=true
     return getSoundBip_file;
 }
 
 getSoundSelect_file = null;
 var getSoundSelect = function() {
-    if (getSoundSelect_file == null) {getSoundSelect_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor/desenvolvimento/audio/selArquivo.mp3')}
+    if (getSoundSelect_file == null) {getSoundSelect_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor2/master/audio/selArquivo.mp3')}
     return getSoundSelect_file;
 }
 
+{{! nao tem }}
 getSoundError_file = null;
 var getSoundError = function() {
     if (getSoundError_file == null) {getSoundError_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor/desenvolvimento/audio/erroEnvio.mp3')}
@@ -101,16 +102,17 @@ var getSoundError = function() {
 
 getSoundSent_file = null;
 function getSoundSent(acao) {
-    if (getSoundSent_file == null) {getSoundSent_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor/desenvolvimento/audio/enviado.mp3')}
+    if (getSoundSent_file == null) {getSoundSent_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor2/master/audio/enviado.mp3')}
     return getSoundSent_file;
 }
 
 getRemove_file = null;
 function getRemove(acao) {
-    if (getRemove_file == null) {getRemove_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor/desenvolvimento/audio/anexoRM.mp3')}
+    if (getRemove_file == null) {getRemove_file = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor2/master/audio/anexoRM.mp3')}
     return getRemove_file;
 }
 
+{{! nao tem }}
 getErroRemove_file = null;
 function getErroRemove(acao) {
     if (getErroRemove == null) {getErroRemove = new Audio('https://raw.githubusercontent.com/CoticEaDIFRN/moodle_theme_ledor/desenvolvimento/audio/falhaRemove.mp3')}
